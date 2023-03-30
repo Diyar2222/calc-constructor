@@ -1,0 +1,31 @@
+.numbers{
+    width: 240px;
+    height: 225px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap:3px;
+    background-color: white;
+    box-shadow: 11px 11px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+}
+.number{
+    width: 72px;
+    height: 50px;
+    border: 1px solid rgb(187, 183, 183);
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    &:hover{
+        cursor: pointer;
+        border:2px solid #5D5FEF
+    }
+}
+.buttonDisabled {
+    pointer-events: none;
+}
+.zero{
+    grid-column: span 2;
+    width: 153px;
+}

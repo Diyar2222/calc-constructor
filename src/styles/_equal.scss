@@ -1,0 +1,38 @@
+.operate-btns{
+    width: 240px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    border-radius: 5px; 
+    box-shadow: 11px 11px 8px 0px rgba(34, 60, 80, 0.2);
+    gap:10px;
+    padding: 3px;
+    background-color: white;
+    &_equal{
+        background-color: #5D5FEF;
+        color: white;
+        font-size: 1.5rem;
+        width: 113px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+    &_delete,&_clear{
+        border: none;
+        color: white;
+        background-color: red;
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+}

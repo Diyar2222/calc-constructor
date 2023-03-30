@@ -1,0 +1,21 @@
+.signs{
+    width: 240px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 11px 11px 8px 0px rgba(34, 60, 80, 0.2);
+    grid-template-columns:repeat(4,1fr);
+}
+.sign{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(187, 183, 183);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    &:hover{
+        cursor: pointer;
+        border:2px solid #5D5FEF
+    }
+}
